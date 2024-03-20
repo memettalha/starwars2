@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-image: url("resim.png");
+}
+.hide{
+    display:none;
+}
+button{
+    background-color: rgb(68, 116, 20);
+    margin-left: calc(40%);
+    margin-bottom: 40px;
+    margin-top:30px;
+    padding: 15px;
+    border-radius: 15px;
+    color:#fff;
+    font-size: 1.5rem;
+}
+.card{
+    margin-bottom: 20px;
+    margin-right: 20px;
+    background: rgb(0,23,36);
+    background: linear-gradient(90deg, rgba(0,23,36,1) 0%,rgb(68, 116, 20) 10%, rgba(17,140,70,1) 100%);
+}
+.card-img-top{
+    width:100%;
+    height:250px;
+    object-fit: contain;
+}
+.card ul li{
+    list-style-type: none;
+    border-bottom:1px solid yellow;
+    padding: 5px;
+    text-align: center;
+    color:#fff;
+    font-size:1.2em;
+}
+.red{
+    background-color: red;
+}
+.red:hover{
+    opacity:0.9;
+    cursor: pointer;
+}
+
+.green{
+    background-color: green;
+}
+.green:hover{
+    opacity:0.9;
+}
+.green:active{
+    cursor: pointer;
+}
+.form-check{
+    background-color: rgb(153, 122, 87);
+    color:#fff;
+    padding: 10px;
+    border-radius: 5px;
+    width:120px;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    cursor:pointer;
+}
+.filter{
+    display: flex;
+    justify-content: space-around;
+}
